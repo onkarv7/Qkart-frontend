@@ -3,8 +3,8 @@ import ipConfig from "./ipConfig.json";
 import { Route, Switch } from "react-router-dom";
 import Login from "./components/Login";
 import Products from "./components/Products";
-// import Checkout from "./components/Checkout";
-// import Thanks from "./components/Thanks"
+import Checkout from "./components/Checkout";
+import Thanks from "./components/Thanks"
 import { ThemeProvider } from '@mui/material/styles';
 import theme from "./theme";
 import React from "react";
